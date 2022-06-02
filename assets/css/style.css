@@ -20,7 +20,7 @@ p {
 
 /* loading page and section 1 */
 
-.header {
+.index-header {
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/photo-1581009146145-b5ef050c2e1e.avif');
@@ -263,4 +263,15 @@ nav .fa-solid {
 
 .reasons-columns:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+}
+
+/* push */ 
+
+.push-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/michael-demoya-i2GS_MtW9hM-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
