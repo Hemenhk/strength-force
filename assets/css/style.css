@@ -512,3 +512,24 @@ nav .fa-solid {
 .leg-video {
     width: 50%;
 }
+
+/* footer */
+
+footer {
+    background-color: #1c1d1d;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons > li {
+    display: inline;
+}
+
+.social-icons i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fff;
+}
