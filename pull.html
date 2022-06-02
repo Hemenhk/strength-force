@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strength Force</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section class="pull-header">
+        <nav>
+            <h1>Strength Force</h1>
+            <div class="back-nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="push.html">PUSH</a></li>
+                    <li><a href="pull.html">PULL</a></li>
+                    <li><a href="index.html">LEGS</a></li>
+                    <li><a href="index.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="cover-box">
+            <h1>Pull</h1>
+            <p>Build A Wide Back and Biceps</p>
+        </div>
+        <a href="#back">
+            <div class="scroll-down"></div>
+        </a>
+    </section>
+    <section class="back" id="back">
+        <h1>Back</h1>
+        <div class="stacked-workout">
+            <div class="back-column">
+                <h2>Deadlift</h2>
+                <h3>5 sets of 5 reps</h3>
+                <p> 1. Stand in the middle of the bar, with the bar touching your shins. <br> 2. Bend down and grip the
+                    bar a bit wider than shoulder width. <br> 3. Bring your backside down and stick your chest up,
+                    whilst also tucking your chin. <br> 4. With a straight back, pull the bar upwards until you are
+                    standing upright. <br> 5. Slowly bring the bar back down in the same manner in which you brought it
+                    up. Repeat.</p>
+            </div>
+            <div class="back-column">
+                <h2>Deadlift Video</h2>
+                <iframe class="back-video" width="420" height="236.25" src="https://www.youtube.com/embed/P-vNNjYQulg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="back-column">
+                <h2>Lats Pulldown</h2>
+                <h3>3 sets of 10 reps</h3>
+                <p> 1. Balance both arms, and bring your elbows slightly below 180 degrees, so that they are at an
+                    angle. <br> 2. Press the dumbells upwards and bring them slightly together at the top for a better
+                    contraction. <br> 3. Bring the elbows down to a 90 degree angle. Further and you risk hurting your
+                    front delts.</p>
+            </div>
+            <div class="back-column">
+                <h2>Seated Cable Row</h2>
+                <h3>3 sets of 10 reps</h3>
+                <p> 1. Whilst seated, grab the handle and lean back, all whilst keeping your back straight. <br> 2. Pull
+                    the handle towards your stomach and squeeze for a better contraction. <br> 3. Slowly bring the
+                    handles back and stop juist before the weights are restacked, then repeat.</p>
+            </div>
+            <div class="back-column">
+                <h2>One Arm Dumbbell Row</h2>
+                <h3>3 sets of 10 reps</h3>
+                <p> 1. Set the cables to be below your knees. <br> 2. Grab the handles and bring your hands to meet
+                    right below your chin. Squeeze for a
+                    better contraction. <br> 3. Slowly bring the handles back down, but stop right before they come to a
+                    full stop, so
+                    as to keep the muscles in action.</p>
+            </div>
+        </div>
+    </section>
+    <section class="biceps">
+        <h1>Biceps</h1>
+        <div class="stacked-workout">
+            <div class="back-column">
+                <h2>Barbell Curl</h2>
+                <h3>3 sets of 10 reps</h3>
+                <p> 1. Grab the barbell shoulder width, and stand upright. <br> 2.
+                    Curl the barbell, with locked elbows, towards your chin. <br> 3. Slowly bring the barbell down, and
+                    stop before your arms extend fully. Repeat.</p>
+            </div>
+            <div class="back-column">
+                <h2>Dumbell Curls</h2>
+                <h3>3 sets of 10 reps</h3>
+                <p> 1. Grab the dumbbells whilst seated on a bench with a sight decline. <br> 2. Curl the dumbbells and
+                    squeeze for a better contraction. <br> 3. Slowly bring the dumbbells down and stop before your arms
+                    extend fully. Repeat.</p>
+            </div>
+            <div class="back-column">
+                <h2>Hammer Curls</h2>
+                <h3>3 sets of 10 reps</h3>
+                <p> 1. Grab the dumbbells in either hand. <br> 2. Face the palms of your hands inwards towards you. <br>
+                    3. Curl the dumbbells in a controlled motion. <br> 4. Slowly bring the dumbbells down, and stop
+                    before you extend your arms fully.</p>
+            </div>
+        </div>
+    </section>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/958d0d4858.js" crossorigin="anonymous"></script>
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

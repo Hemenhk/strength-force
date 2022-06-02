@@ -218,6 +218,10 @@ nav .fa-solid {
     .bench-video {
         width: 50%;
     }
+
+    .back-video {
+        width: 50%;
+    }
 }
 
 /* loading page section 2 */
@@ -313,7 +317,7 @@ nav .fa-solid {
     margin: 5px 0 7.5px 0;
 }
 
-.chest-column {
+.push-column {
     flex-basis: 100%;
     background: #f7eb9c;
     border-radius: 10px;
@@ -340,14 +344,6 @@ nav .fa-solid {
     margin: 50px 0 50px 0;
 }
 
-.triceps-column {
-    flex-basis: 100%;
-    background: #f7eb9c;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
 
 /* Shoulders */
 
@@ -363,12 +359,83 @@ nav .fa-solid {
     margin: 50px 0 50px 0;
 }
 
-.shoulders-column {
+/* Pull */
+
+.back-nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.back-nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.back-nav-links a {
+    color: #fff;
+    font-family: 'Squada One', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.back-nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #DC143C;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.back-nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.pull-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/alora-griffiths-E3wehabi_B4-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Back */
+
+.back-column {
     flex-basis: 100%;
-    background: #f7eb9c;
+    background: #f0adba;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
 }
 
+.back h1 {
+    font-size: 75px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.back-video {
+    width: 50%;
+}
+
+/* Biceps */
+
+.biceps {
+    background-color: #fafafa;
+}
+
+.biceps h1 {
+    font-size: 75px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
