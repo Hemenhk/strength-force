@@ -206,12 +206,17 @@ nav .fa-solid {
         padding: 30px;
     }
 
-    html, body {
+    html,
+    body {
         overflow-x: hidden;
     }
 
     .row {
         flex-direction: column;
+    }
+
+    .bench-video {
+        width: 50%;
     }
 }
 
@@ -265,7 +270,9 @@ nav .fa-solid {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
 }
 
-/* push */ 
+/* push */
+
+/* Chest*/
 
 .push-header {
     min-height: 100vh;
@@ -275,3 +282,93 @@ nav .fa-solid {
     background-size: cover;
     position: relative;
 }
+
+.stacked-workout {
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.chest h1 {
+    font-size: 75px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+
+}
+
+.stacked-workout h2 {
+    font-family: 'Squada One', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin: 10px 0 10px 0;
+}
+
+.stacked-workout h3 {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 5px 0 7.5px 0;
+}
+
+.chest-column {
+    flex-basis: 100%;
+    background: #f7eb9c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.bench-video {
+    width: 50%;
+}
+
+/* Triceps */
+
+.triceps {
+    background-color: #fafafa;
+}
+
+.triceps h1 {
+    font-size: 75px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.triceps-column {
+    flex-basis: 100%;
+    background: #f7eb9c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+/* Shoulders */
+
+.shoulders {
+    background-color: #fff;
+}
+
+.shoulders h1 {
+    font-size: 75px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.shoulders-column {
+    flex-basis: 100%;
+    background: #f7eb9c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
