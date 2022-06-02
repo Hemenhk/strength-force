@@ -439,3 +439,64 @@ nav .fa-solid {
     text-align: center;
     margin: 50px 0 50px 0;
 }
+
+/* Legs */
+
+.legs-nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.legs-nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.legs-nav-links a {
+    color: #fff;
+    font-family: 'Squada One', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.legs-nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #21B6A8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.legs-nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.legs-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/sunday-ii-sunday-snM3yEpvklU-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.legs-column {
+    flex-basis: 100%;
+    background: #9fccc8;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.legs h1 {
+    font-size: 75px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
