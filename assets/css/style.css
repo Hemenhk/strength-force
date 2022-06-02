@@ -222,6 +222,10 @@ nav .fa-solid {
     .back-video {
         width: 50%;
     }
+
+    .leg-video {
+        width: 50%;
+    }
 }
 
 /* loading page section 2 */
@@ -499,4 +503,8 @@ nav .fa-solid {
     letter-spacing: 2px;
     text-align: center;
     margin: 50px 0 50px 0;
+}
+
+.leg-video {
+    width: 50%;
 }
