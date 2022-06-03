@@ -179,16 +179,48 @@ nav .fa-solid {
 
 @media screen and (max-width: 700px) {
     .cover-box h1 {
-        font-size: 20px;
+        font-size: 3rem;
     }
 
     .nav-links ul li {
         display: block;
     }
 
+    .back-nav-links ul li {
+        display: block;
+    }
+
+    .legs-nav-links ul li {
+        display: block;
+    }
+
     .nav-links {
         position: fixed;
         background: #ffdf00;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .back-nav-links {
+        position: fixed;
+        background: #DC143C;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .legs-nav-links {
+        position: fixed;
+        background: #9fccc8;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -210,6 +242,14 @@ nav .fa-solid {
         padding: 30px;
     }
 
+    .back-nav-links ul {
+        padding: 30px;
+    }
+
+    .legs-nav-links ul {
+        padding: 30px;
+    }
+
     html,
     body {
         overflow-x: hidden;
@@ -221,14 +261,21 @@ nav .fa-solid {
 
     .bench-video {
         width: 50%;
+        border: none;
     }
 
     .back-video {
         width: 50%;
+        border: none;
     }
 
     .leg-video {
         width: 50%;
+        border: none;
+    }
+
+    .about-us {
+        width: 30%;
     }
 }
 
@@ -282,7 +329,7 @@ nav .fa-solid {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
 }
 
-/* Compound vs Isolation */ 
+/* Compound vs Isolation */
 
 .workouts {
     width: 50%;
@@ -331,7 +378,7 @@ nav .fa-solid {
 }
 
 .ex-columns img {
-    width: 100;
+    width: 100%;
     height: 40%;
 }
 
@@ -406,6 +453,7 @@ nav .fa-solid {
 
 .bench-video {
     width: 50%;
+    border: none;
 }
 
 /* Triceps */
@@ -502,6 +550,7 @@ nav .fa-solid {
 
 .back-video {
     width: 50%;
+    border: none;
 }
 
 /* Biceps */
@@ -581,6 +630,34 @@ nav .fa-solid {
 
 .leg-video {
     width: 50%;
+    border: none;
+}
+
+/* About Us */
+
+.about-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/victor-freitas-nlZTjUZX2qo-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.about-us {
+    width: 40%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.about-us h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
 }
 
 /* footer */
@@ -593,7 +670,7 @@ footer {
     text-align: center;
 }
 
-.social-icons > li {
+.social-icons>li {
     display: inline;
 }
 
@@ -603,4 +680,3 @@ footer {
     padding: 5%;
     color: #fff;
 }
-
