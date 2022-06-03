@@ -201,7 +201,7 @@ nav .fa-solid {
         width: 200px;
         top: 0;
         right: -200px;
-        text-align: left;
+        text-align: right;
         z-index: 2;
         transition: 1s;
     }
@@ -213,7 +213,7 @@ nav .fa-solid {
         width: 200px;
         top: 0;
         right: -200px;
-        text-align: left;
+        text-align: right;
         z-index: 2;
         transition: 1s;
     }
@@ -225,7 +225,7 @@ nav .fa-solid {
         width: 200px;
         top: 0;
         right: -200px;
-        text-align: left;
+        text-align: right;
         z-index: 2;
         transition: 1s;
     }
@@ -260,7 +260,7 @@ nav .fa-solid {
     }
 
     .bench-video {
-        width: 50%;
+        width: 100%;
         border: none;
     }
 
@@ -277,6 +277,7 @@ nav .fa-solid {
     .about-us {
         width: 30%;
     }
+    
 }
 
 /* loading page section 2 */
@@ -414,7 +415,7 @@ nav .fa-solid {
 
 .stacked-workout {
     flex-direction: column;
-    width: 40%;
+    width: 80%;
     align-items: center;
     text-align: center;
     margin: 0 auto;
@@ -645,11 +646,11 @@ nav .fa-solid {
 }
 
 .about-us {
-    width: 40%;
+    width: 80%;
     color: #fff;
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 10%;
     text-align: center;
     flex-direction: column;
 }
@@ -658,6 +659,14 @@ nav .fa-solid {
     font-size: 3rem;
     margin-bottom: 20px;
     letter-spacing: 3px;
+}
+
+.about-text {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* footer */
